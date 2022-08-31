@@ -412,6 +412,7 @@ video {
 
 body {
   font-family: Alata, sans-serif;
+  font-size: 0.9375rem;
 }
 
 *, ::before, ::after {
@@ -557,6 +558,11 @@ body {
 
 .grid {
   display: grid;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-pink-500 {

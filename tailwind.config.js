@@ -9,6 +9,9 @@ module.exports = {
         darkGray: "hsl(0, 0%, 55%)",
         veryDarkGray: "hsl(0, 0%, 41%)",
       },
+      fontSize: {
+        base: "0.9375rem",
+      },
       fontFamily: {
         alata: ["Alata", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
