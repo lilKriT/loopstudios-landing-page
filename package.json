@@ -4,7 +4,9 @@
   "description": "A landing page for a fictional company. Also a challenge for FrontEnd Mentor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/lilKriT/loopstudios-landing-page/issues"
   },
-  "homepage": "https://github.com/lilKriT/loopstudios-landing-page#readme"
+  "homepage": "https://github.com/lilKriT/loopstudios-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }
