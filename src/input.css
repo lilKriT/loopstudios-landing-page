@@ -7,3 +7,9 @@
     @apply font-alata text-base;
   }
 }
+
+@layer components {
+  .navItem {
+    @apply py-2 px-4 flex hover:-translate-y-1 duration-150;
+  }
+}
