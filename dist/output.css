@@ -574,11 +574,6 @@ body {
   position: fixed;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -589,21 +584,12 @@ body {
   margin-right: auto;
 }
 
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
 .-ml-20 {
   margin-left: -5rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-auto {
-  margin-top: auto;
 }
 
 .flex {
@@ -622,14 +608,6 @@ body {
   width: 100%;
 }
 
-.w-4\/5 {
-  width: 80%;
-}
-
-.w-1\/5 {
-  width: 20%;
-}
-
 .w-3\/5 {
   width: 60%;
 }
@@ -638,44 +616,8 @@ body {
   max-width: 72rem;
 }
 
-.max-w-\[20ch\] {
-  max-width: 20ch;
-}
-
-.max-w-\[40ch\] {
-  max-width: 40ch;
-}
-
-.max-w-\[30ch\] {
-  max-width: 30ch;
-}
-
-.max-w-\[25ch\] {
-  max-width: 25ch;
-}
-
-.max-w-\[125ch\] {
-  max-width: 125ch;
-}
-
-.max-w-\[15ch\] {
-  max-width: 15ch;
-}
-
-.max-w-\[17ch\] {
-  max-width: 17ch;
-}
-
-.max-w-\[13ch\] {
-  max-width: 13ch;
-}
-
 .max-w-\[14ch\] {
   max-width: 14ch;
-}
-
-.max-w-5xl {
-  max-width: 64rem;
 }
 
 .items-end {
@@ -684,14 +626,6 @@ body {
 
 .items-center {
   align-items: center;
-}
-
-.items-baseline {
-  align-items: baseline;
-}
-
-.justify-start {
-  justify-content: flex-start;
 }
 
 .justify-center {
@@ -706,27 +640,8 @@ body {
   scroll-behavior: auto;
 }
 
-.scroll-smooth {
-  scroll-behavior: smooth;
-}
-
 .border {
   border-width: 1px;
-}
-
-.bg-red-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
-}
-
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
-}
-
-.bg-pink-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 231 243 / var(--tw-bg-opacity));
 }
 
 .bg-pink-200 {
@@ -734,22 +649,13 @@ body {
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
-.bg-blue-700 {
+.bg-pink-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
 }
 
 .bg-girlDriving {
   background-image: url(../images/desktop/image-hero.jpg);
-}
-
-.to-blue-700 {
-  --tw-gradient-to: #1d4ed8;
 }
 
 .bg-cover {
@@ -760,24 +666,12 @@ body {
   padding: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-5 {
   padding: 1.25rem;
 }
 
-.p-20 {
-  padding: 5rem;
-}
-
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pl-6 {
-  padding-left: 1.5rem;
 }
 
 .pl-12 {
@@ -794,11 +688,6 @@ body {
 
 .font-josefin {
   font-family: Josefin Sans, sans-serif;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-5xl {
@@ -818,11 +707,6 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.text-darkGray {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 55% / var(--tw-text-opacity));
 }
 
 .text-veryDarkGray {
