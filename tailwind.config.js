@@ -16,6 +16,9 @@ module.exports = {
         alata: ["Alata", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
       },
+      backgroundImage: {
+        girlDriving: "url(../images/desktop/image-hero.jpg)",
+      },
     },
   },
   plugins: [],

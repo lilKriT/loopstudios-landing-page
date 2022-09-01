@@ -570,6 +570,15 @@ body {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -583,6 +592,10 @@ body {
   display: grid;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -591,8 +604,48 @@ body {
   max-width: 72rem;
 }
 
+.max-w-\[20ch\] {
+  max-width: 20ch;
+}
+
+.max-w-\[40ch\] {
+  max-width: 40ch;
+}
+
+.max-w-\[30ch\] {
+  max-width: 30ch;
+}
+
+.max-w-\[25ch\] {
+  max-width: 25ch;
+}
+
+.max-w-\[125ch\] {
+  max-width: 125ch;
+}
+
+.max-w-\[15ch\] {
+  max-width: 15ch;
+}
+
+.max-w-\[17ch\] {
+  max-width: 17ch;
+}
+
+.max-w-\[13ch\] {
+  max-width: 13ch;
+}
+
+.max-w-\[14ch\] {
+  max-width: 14ch;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-center {
@@ -603,12 +656,64 @@ body {
   justify-content: space-between;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-pink-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+}
+
+.bg-girlDriving {
+  background-image: url(../images/desktop/image-hero.jpg);
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.font-josefin {
+  font-family: Josefin Sans, sans-serif;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {
