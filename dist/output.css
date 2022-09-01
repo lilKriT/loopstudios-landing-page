@@ -584,6 +584,11 @@ body {
   margin-right: 1rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex {
   display: flex;
 }
@@ -598,6 +603,18 @@ body {
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/5 {
+  width: 80%;
+}
+
+.w-1\/5 {
+  width: 20%;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .max-w-6xl {
@@ -640,6 +657,10 @@ body {
   max-width: 14ch;
 }
 
+.max-w-5xl {
+  max-width: 64rem;
+}
+
 .items-center {
   align-items: center;
 }
@@ -656,6 +677,10 @@ body {
   justify-content: space-between;
 }
 
+.scroll-smooth {
+  scroll-behavior: smooth;
+}
+
 .border {
   border-width: 1px;
 }
@@ -670,8 +695,27 @@ body {
   background-color: rgb(190 24 93 / var(--tw-bg-opacity));
 }
 
+.bg-pink-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 231 243 / var(--tw-bg-opacity));
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
 .bg-girlDriving {
   background-image: url(../images/desktop/image-hero.jpg);
+}
+
+.to-blue-700 {
+  --tw-gradient-to: #1d4ed8;
 }
 
 .bg-cover {
@@ -710,6 +754,11 @@ body {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .uppercase {
