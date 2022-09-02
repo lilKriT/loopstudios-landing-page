@@ -661,6 +661,18 @@ body {
   justify-content: space-between;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
 .scroll-auto {
   scroll-behavior: auto;
 }
@@ -705,6 +717,18 @@ body {
 
 .bg-deepEarth {
   background-image: url(../images/desktop/image-deep-earth.jpg);
+}
+
+.bg-nightArcade {
+  background-image: url(../images/desktop/image-night-arcade.jpg);
+}
+
+.bg-soccerTeam {
+  background-image: url(../images/desktop/image-soccer-team.jpg);
+}
+
+.bg-theGrid {
+  background-image: url(../images/desktop/image-grid.jpg);
 }
 
 .bg-cover {
