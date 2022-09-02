@@ -12,6 +12,10 @@
   .navItem {
     @apply pt-2 pb-4 px-4 flex hover:-translate-y-1 duration-150 text-shadow;
   }
+
+  .creationCard {
+    @apply w-1/4 aspect-[0.568] flex items-end bg-cover p-8;
+  }
 }
 
 @layer utilities {
