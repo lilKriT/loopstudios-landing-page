@@ -14,7 +14,10 @@
   }
 
   .creationCard {
-    @apply aspect-[0.568] flex items-end bg-cover p-8 flex-1 basis-[calc(25%_-_2rem)];
+    @apply aspect-[0.568] flex items-end bg-cover flex-1 basis-[calc(25%_-_2rem)];
+  }
+
+  .creationCard > div {
   }
 }
 
