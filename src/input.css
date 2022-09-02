@@ -10,6 +10,12 @@
 
 @layer components {
   .navItem {
-    @apply py-2 px-4 flex hover:-translate-y-1 duration-150;
+    @apply py-2 px-4 flex hover:-translate-y-1 duration-150 text-shadow;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0px 0px 5px rgb(0 0 0 / 1);
   }
 }

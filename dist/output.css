@@ -563,6 +563,7 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
   transition-duration: 150ms;
+  text-shadow: 0px 0px 5px rgb(0 0 0 / 1);
 }
 
 .navItem:hover {
@@ -644,24 +645,14 @@ body {
   border-width: 1px;
 }
 
-.bg-pink-200 {
+.bg-white {
   --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
-}
-
-.bg-pink-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(190 24 93 / var(--tw-bg-opacity));
+  background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 0% / var(--tw-bg-opacity));
-}
-
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
 .bg-girlDriving {
@@ -684,12 +675,12 @@ body {
   padding-top: 1.5rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-16 {
+  padding-left: 4rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-left {
@@ -724,10 +715,9 @@ body {
   color: hsl(0 0% 41% / var(--tw-text-opacity));
 }
 
-.backdrop-blur-xl {
-  --tw-backdrop-blur: blur(24px);
-  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
-          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+.drop-shadow-\[0_0_3px_rgba\(0\2c 0\2c 0\2c 0\.3\)\] {
+  --tw-drop-shadow: drop-shadow(0 0 3px rgba(0,0,0,0.3));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .duration-150 {
