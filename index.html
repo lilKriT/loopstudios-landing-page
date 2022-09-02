@@ -27,7 +27,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="flex justify-center w-full fixed " id="section-hero">
+    <header class="flex justify-center w-full fixed shadow" id="section-hero">
       <nav class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4">
         <a href="#"
           ><img
@@ -62,10 +62,10 @@
     </section>
     <!-- Leader Section -->
     <section
-      class=" min-h-screen w-full max-w-6xl mx-auto flex justify-center items-center"
+      class="min-h-screen w-full max-w-6xl mx-auto flex justify-center items-center"
       id="section-leader"
     >
-      <div class=" flex justify-center items-end">
+      <div class="flex justify-center items-end">
         <img
           src="./images/desktop/image-interactive.jpg"
           alt="Gamer with VR goggles"
@@ -77,27 +77,34 @@
           </h2>
           <p class="mt-4 text-veryDarkGray">
             Founded in 2011, Loopstudios has been producing world-class virtual
-            reality projects for some of the best companies around the globe. Our
-            award-winning creations have transformed businesses through digital
-            experiences that bind to their brand.
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
           </p>
         </div>
       </div>
     </section>
     <!-- Creations Section -->
-    <section id="section-creations">
+    <section
+      class="bg-pink-400 min-h-screen flex flex-col items-center"
+      id="section-creations"
+    >
       <!-- Creations Header -->
-      <div>
-        <h2>Our creations</h2>
-        <a href="#">See all</a>
+      <div
+        class="bg-emerald-700 w-full max-w-6xl flex justify-between items-center"
+      >
+        <h2 class="text-4xl font-josefin uppercase">Our creations</h2>
+        <a href="#" class="text-xl font-josefin uppercase border border-black"
+          >See all</a
+        >
       </div>
       <!-- Creations collection -->
       <div>
-        <div>
-          <a href="#">
+        <a href="#">
+          <div>
             <h3>Deep earth</h3>
-          </a>
-        </div>
+          </div>
+        </a>
         <!-- <div>
           <a href="#">
             <h3>Night arcade</h3>
@@ -136,15 +143,15 @@
           <a href="#">
             <h3>Make it fisheye</h3>
           </a>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-black" id="section-footer">
       <!-- Left Column -->
       <div>
-        <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+        <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
         <nav>
           <menu>
             <li><a href="#">About</a></li>
@@ -156,6 +163,6 @@
         </nav>
       </div>
     </footer>
-       © 2021 Loopstudios. All rights reserved.
+    © 2021 Loopstudios. All rights reserved.
   </body>
 </html>
