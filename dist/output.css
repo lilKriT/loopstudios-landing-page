@@ -605,6 +605,18 @@ body {
   display: grid;
 }
 
+.aspect-\[\] {
+  aspect-ratio: ;
+}
+
+.aspect-\[\.568\] {
+  aspect-ratio: .568;
+}
+
+.aspect-\[0\.568\] {
+  aspect-ratio: 0.568;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -707,6 +719,14 @@ body {
   padding: 1.25rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -745,6 +765,21 @@ body {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .uppercase {
