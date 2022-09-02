@@ -13,8 +13,14 @@
     @apply pt-2 pb-4 px-4 flex hover:-translate-y-1 duration-150 text-shadow;
   }
 
+  #grid-creations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
   .creationCard {
-    @apply aspect-[0.568] flex items-end bg-cover flex-1 basis-[calc(25%_-_2rem)];
+    @apply aspect-[0.568] overflow-hidden flex items-end bg-cover flex-1 basis-[calc(25%_-_2rem)];
   }
 
   .creationCard > div {
