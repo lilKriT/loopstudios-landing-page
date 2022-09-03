@@ -572,12 +572,13 @@ body {
 }
 
 #grid-creations {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr));
+  /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr)); */
   /* gap: 2rem; */
   /* This is called the Holy Albatross */
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
 }
 
 #grid-creations > a {
@@ -585,7 +586,7 @@ body {
   overflow: hidden;
   flex-grow: 1;
   flex-basis: calc((72rem - 100%) * 999);
-  min-width: 200px;
+  min-width: 21%;
 }
 
 #grid-creations > a > div {
