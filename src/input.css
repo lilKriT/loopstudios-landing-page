@@ -26,6 +26,10 @@
   #grid-creations > a > div {
     @apply bg-cover w-full h-full duration-150;
   }
+
+  #grid-creations > a > div > h3 {
+    @apply text-white text-4xl uppercase font-josefin;
+  }
 }
 
 @layer utilities {
