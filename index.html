@@ -28,7 +28,7 @@
   <body>
     <!-- Header -->
     <header
-      class="flex justify-center w-full fixed shadow backdrop-blur-[2px]"
+      class="flex justify-center w-full fixed shadow backdrop-blur-[2px] z-[1]"
       id="section-hero"
     >
       <nav class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4">
@@ -101,53 +101,64 @@
           >See all</a
         >
       </div>
+
       <!-- Creations collection -->
       <div class="bg-slate-400 w-full max-w-6xl" id="grid-creations">
         <!-- Card One -->
-        <a href="#" class="creationCard bg-deepEarth">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            Deep <br />
-            earth
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-deepEarth group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              Deep <br />
+              earth
+            </h3>
+          </div>
         </a>
 
         <!-- Card Two -->
-        <a href="#" class="creationCard bg-nightArcade">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            Night<br />
-            arcade
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-nightArcade group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              Night<br />
+              arcade
+            </h3>
+          </div>
         </a>
 
         <!-- Card Three -->
-        <a href="#" class="creationCard bg-soccerTeam">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            Soccer<br />
-            team VR
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-soccerTeam group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              Soccer<br />
+              team VR
+            </h3>
+          </div>
         </a>
 
         <!-- Card Four -->
-        <a href="#" class="creationCard bg-theGrid">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            The<br />
-            grid
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-theGrid group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              The<br />
+              grid
+            </h3>
+          </div>
         </a>
 
         <!-- Card Five -->
-        <a href="#" class="creationCard bg-fromAbove">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            From up<br />
-            above VR
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-fromAbove group-hover:scale-105">
+            <div>
+              <h3 class="text-white text-4xl uppercase font-josefin">
+                From up<br />
+                above VR
+              </h3>
+            </div>
+          </div>
         </a>
 
         <!-- Card Six -->
-        <a href="#" class="aspect-[0.568] overflow-hidden group">
-          <div
-            class="bg-pocketBorealis bg-cover group-hover:scale-105 w-full h-full duration-150"
-          >
+        <a href="#" class="group">
+          <div class="bg-pocketBorealis group-hover:scale-105">
             <h3 class="text-white text-4xl uppercase font-josefin">
               Pocket<br />
               borealis
@@ -156,19 +167,23 @@
         </a>
 
         <!-- Card Seven -->
-        <a href="#" class="creationCard bg-curosity">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            The<br />
-            curiosity
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-curosity group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              The<br />
+              curiosity
+            </h3>
+          </div>
         </a>
 
         <!-- Card Eight -->
-        <a href="#" class="creationCard bg-fishEye">
-          <h3 class="text-white text-4xl uppercase font-josefin">
-            Make it<br />
-            fisheye
-          </h3>
+        <a href="#" class="group">
+          <div class="bg-fishEye group-hover:scale-105">
+            <h3 class="text-white text-4xl uppercase font-josefin">
+              Make it<br />
+              fisheye
+            </h3>
+          </div>
         </a>
       </div>
     </section>
