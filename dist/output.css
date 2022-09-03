@@ -583,9 +583,12 @@ body {
 }
 
 #grid-creations > a > div {
+  display: flex;
   height: 100%;
   width: 100%;
+  align-items: flex-end;
   background-size: cover;
+  padding: 2rem;
   transition-duration: 150ms;
 }
 

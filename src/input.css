@@ -24,7 +24,7 @@
   }
 
   #grid-creations > a > div {
-    @apply bg-cover w-full h-full duration-150;
+    @apply bg-cover w-full h-full duration-150 p-8 flex items-end;
   }
 
   #grid-creations > a > div > h3 {
