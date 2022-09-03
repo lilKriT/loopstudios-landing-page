@@ -13,6 +13,10 @@
     @apply pt-2 pb-4 px-4 flex hover:-translate-y-1 duration-150 text-shadow;
   }
 
+  .navItem:last-child {
+    @apply pr-0;
+  }
+
   #grid-creations {
     /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr)); */
@@ -36,6 +40,14 @@
 
   #grid-creations > a > div > h3 {
     @apply text-white text-4xl uppercase font-josefin;
+  }
+
+  .footerNavItem {
+    @apply text-white px-4;
+  }
+
+  .footerNavItem:first-child {
+    @apply pl-0;
   }
 }
 
