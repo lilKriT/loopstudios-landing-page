@@ -17,10 +17,16 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr));
     /* gap: 2rem; */
+    /* This is called the Holy Albatross */
+    display: flex;
+    flex-wrap: wrap;
   }
 
   #grid-creations > a {
     @apply aspect-[0.568] overflow-hidden;
+    flex-grow: 1;
+    flex-basis: calc((72rem - 100%) * 999);
+    min-width: 200px;
   }
 
   #grid-creations > a > div {
