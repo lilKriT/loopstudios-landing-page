@@ -18,20 +18,20 @@
   }
 
   #grid-creations {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr)); */
-    /* gap: 2rem; */
     /* The Holy Albatross will not work here, as the number of elements isn't fixed */
+    --creations-gap: 1.6rem;
+    --cols-number: 4;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
-    justify-content: space-between;
+    gap: var(--creations-gap);
   }
 
   #grid-creations > a {
     @apply aspect-[0.568] overflow-hidden;
-    /* flex-grow: 1; */
-    flex-basis: calc((100% - 6rem) / 4);
+    flex-basis: calc(
+      (100% - ((var(--cols-number) - 1) * var(--creations-gap))) /
+        var(--cols-number)
+    );
   }
 
   #grid-creations > a > div {
