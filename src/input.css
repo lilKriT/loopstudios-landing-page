@@ -43,7 +43,7 @@
   }
 
   .footerNavItem {
-    @apply text-white px-4;
+    @apply text-white px-4 block hover:-translate-y-1 duration-150 text-shadow;
   }
 
   .footerNavItem:first-child {
