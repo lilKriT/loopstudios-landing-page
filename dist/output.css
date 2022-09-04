@@ -579,18 +579,18 @@ body {
   /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(calc(100% / 4), 1fr)); */
   /* gap: 2rem; */
-  /* This is called the Holy Albatross */
+  /* The Holy Albatross will not work here, as the number of elements isn't fixed */
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
 }
 
 #grid-creations > a {
   aspect-ratio: 0.568;
   overflow: hidden;
-  flex-grow: 1;
-  flex-basis: calc((72rem - 100%) * 999);
-  min-width: 21%;
+  /* flex-grow: 1; */
+  flex-basis: calc((100% - 6rem) / 4);
 }
 
 #grid-creations > a > div {
@@ -733,11 +733,6 @@ body {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 0% / var(--tw-bg-opacity));
-}
-
-.bg-pink-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }
 
 .bg-girlDriving {
