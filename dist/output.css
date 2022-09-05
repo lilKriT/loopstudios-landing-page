@@ -576,17 +576,23 @@ body {
   content: "";
   position: absolute;
   left: 50%;
+  bottom: 0.5rem;
   height: 2px;
-  width: 100%;
+  width: 0px;
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+  transition-duration: 150ms;
+}
+
+.navItem:hover::after {
+  width: 1.5rem;
 }
 
 .navItem:last-child {
-  padding-right: 0px;
+  /* @apply asdpr-0; */
 }
 
 #grid-creations {
