@@ -595,6 +595,10 @@ body {
   /* @apply asdpr-0; */
 }
 
+#section-header > nav > menu > li:last-child > a {
+  margin-right: -1rem;
+}
+
 #grid-creations {
   /* The Holy Albatross will not work here, as the number of elements isn't fixed */
   --creations-gap: 1.6rem;

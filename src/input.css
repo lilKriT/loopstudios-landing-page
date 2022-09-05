@@ -26,6 +26,10 @@
     /* @apply asdpr-0; */
   }
 
+  #section-header > nav > menu > li:last-child > a {
+    @apply -mr-4;
+  }
+
   #grid-creations {
     /* The Holy Albatross will not work here, as the number of elements isn't fixed */
     --creations-gap: 1.6rem;
