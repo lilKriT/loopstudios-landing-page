@@ -14,9 +14,14 @@
     @apply pt-2 pb-4 px-4 flex hover:-translate-y-1 duration-150 text-shadow relative;
   }
 
-  /* Little fix for the top menu */
+  /* Little fix for the header menu */
   #section-header > nav > menu > li:last-child > a {
     @apply -mr-4;
+  }
+
+  /* Another fix, for the footer menu */
+  footer > div > div:last-child > nav > menu > li:first-child {
+    @apply -ml-4;
   }
 
   /* Navigation underlines */
@@ -54,10 +59,6 @@
 
   #grid-creations > a > div > h3 {
     @apply text-white text-4xl uppercase font-josefin;
-  }
-
-  .footerNavItem {
-    @apply text-white px-4 block hover:-translate-y-1 duration-150 text-shadow;
   }
 
   .footerNavItem:first-child {
