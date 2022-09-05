@@ -45,6 +45,7 @@
     gap: var(--creations-gap);
   }
 
+  /* Single Creation */
   #grid-creations > a {
     @apply aspect-[0.568] overflow-hidden;
     flex-basis: calc(
@@ -59,10 +60,6 @@
 
   #grid-creations > a > div > h3 {
     @apply text-white text-4xl uppercase font-josefin;
-  }
-
-  .footerNavItem:first-child {
-    @apply pl-0;
   }
 }
 
