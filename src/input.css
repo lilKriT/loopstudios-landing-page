@@ -23,6 +23,7 @@
   .navItem::after {
     content: "";
     @apply h-[2px] w-0 bg-white absolute rounded left-1/2 -translate-x-1/2 bottom-2 duration-150;
+    box-shadow: 0 0 5px rgb(0 0 0 / 1);
   }
 
   .navItem:hover::after {
