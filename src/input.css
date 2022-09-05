@@ -9,10 +9,17 @@
 }
 
 @layer components {
+  /* Navigation items */
   .navItem {
     @apply pt-2 pb-4 px-4 flex hover:-translate-y-1 duration-150 text-shadow relative;
   }
 
+  /* Little fix for the top menu */
+  #section-header > nav > menu > li:last-child > a {
+    @apply -mr-4;
+  }
+
+  /* Navigation underlines */
   .navItem::after {
     content: "";
     @apply h-[2px] w-0 bg-white absolute rounded left-1/2 -translate-x-1/2 bottom-2 duration-150;
@@ -22,14 +29,7 @@
     @apply w-6;
   }
 
-  .navItem:last-child {
-    /* @apply asdpr-0; */
-  }
-
-  #section-header > nav > menu > li:last-child > a {
-    @apply -mr-4;
-  }
-
+  /* Grid items */
   #grid-creations {
     /* The Holy Albatross will not work here, as the number of elements isn't fixed */
     --creations-gap: 1.6rem;
@@ -48,7 +48,7 @@
   }
 
   #grid-creations > a > div {
-    @apply bg-cover w-full h-full duration-150 p-8 flex items-end;
+    @apply bg-cover w-full h-full duration-150 p-8 flex items-end hover:shadowTint;
   }
 
   #grid-creations > a > div > h3 {
@@ -67,5 +67,9 @@
 @layer utilities {
   .text-shadow {
     text-shadow: 0px 0px 5px rgb(0 0 0 / 1);
+  }
+
+  .shadowTint {
+    box-shadow: inset 0 0 0 100vmax rgb(255 255 255 / 0.3);
   }
 }

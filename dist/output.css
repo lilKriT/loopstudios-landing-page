@@ -556,6 +556,8 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+/* Navigation items */
+
 .navItem {
   position: relative;
   display: flex;
@@ -571,6 +573,14 @@ body {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
+
+/* Little fix for the top menu */
+
+#section-header > nav > menu > li:last-child > a {
+  margin-right: -1rem;
+}
+
+/* Navigation underlines */
 
 .navItem::after {
   content: "";
@@ -591,13 +601,7 @@ body {
   width: 1.5rem;
 }
 
-.navItem:last-child {
-  /* @apply asdpr-0; */
-}
-
-#section-header > nav > menu > li:last-child > a {
-  margin-right: -1rem;
-}
+/* Grid items */
 
 #grid-creations {
   /* The Holy Albatross will not work here, as the number of elements isn't fixed */
@@ -625,6 +629,10 @@ body {
   background-size: cover;
   padding: 2rem;
   transition-duration: 150ms;
+}
+
+#grid-creations > a > div:hover {
+  box-shadow: inset 0 0 0 100vmax rgb(255 255 255 / 0.3);
 }
 
 #grid-creations > a > div > h3 {
