@@ -657,8 +657,32 @@ footer > div > div:last-child > nav > menu > li:first-child {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
 .z-\[1\] {
   z-index: 1;
+}
+
+.z-\[10\] {
+  z-index: 10;
 }
 
 .mx-4 {
@@ -715,6 +739,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
   height: 1.25rem;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -725,6 +753,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
 .w-3\/5 {
   width: 60%;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .max-w-6xl {
@@ -761,6 +793,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.overflow-visible {
+  overflow: visible;
 }
 
 .scroll-smooth {

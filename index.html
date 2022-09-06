@@ -34,7 +34,7 @@
       class="flex justify-center w-full fixed shadow backdrop-blur-[2px] z-[1]"
       id="section-header"
     >
-      <nav class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4">
+      <nav class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4 overflow-visible">
         <a href="#"
           ><img
             src="./images/logo.svg"
@@ -55,6 +55,25 @@
 
         <!-- Mobile Menu Button -->
         <button class="block lg:hidden" id="open-mobile-menu"><img src="./images/icon-hamburger.svg" alt="Mobile Menu" class="p-4"></button>
+
+        <!-- Mobile menu -->
+        <div class="bg-black absolute left-0 top-0 h-screen w-screen">
+          <!-- Top Row -->
+          <div>
+            <a href="#"><img src="./images/logo.svg" alt="Go Home"></a>
+            <button><img src="./images/icon-close.svg" alt="Close Mobile Menu"></button>
+          </div>
+          <!-- Menu Items -->
+          <menu class="text-white uppercase">
+            <li>
+              <a href="#" class="">About</a>
+            </li>
+            <li><a href="#" class="">Careers</a></li>
+            <li><a href="#" class="">Events</a></li>
+            <li><a href="#" class="">Products</a></li>
+            <li><a href="#" class="">Support</a></li>
+          </menu>
+        </div>
       </nav>
     </header>
     <!-- Hero Section -->
