@@ -695,6 +695,11 @@ footer > div > div:last-child > nav > menu > li:first-child {
   margin-right: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
 }
@@ -829,6 +834,11 @@ footer > div > div:last-child > nav > menu > li:first-child {
 .bg-pink-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(251 207 232 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
 .bg-girlDriving {
