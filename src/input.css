@@ -71,4 +71,8 @@
   .shadowTint {
     box-shadow: inset 0 0 0 100vmax rgb(255 255 255 / 0.3);
   }
+
+  .mobileMenuOpen {
+    display: block;
+  }
 }
