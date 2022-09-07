@@ -984,39 +984,20 @@ footer > div > div:last-child > nav > menu > li:first-child {
   transition-duration: 75ms;
 }
 
-#mobile-menu {
-  animation: showMobile 0.3s ease-in-out reverse;
-}
+/* Animating the mobile menu */
 
-.mobileMenuOpen {
-  display: block;
-  -webkit-animation: showMobile 0.3s ease-in-out;
-          animation: showMobile 0.3s ease-in-out;
+#mobile-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  transition: all 0.3s ease-in-out;
   transform-origin: top right;
 }
 
-@-webkit-keyframes showMobile {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes showMobile {
-  from {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
+#mobile-menu.mobileMenuOpen {
+  opacity: 1;
+  transform: scale(1);
+  visibility: visible;
 }
 
 .hover\:-translate-y-1:hover {

@@ -72,24 +72,18 @@
     box-shadow: inset 0 0 0 100vmax rgb(255 255 255 / 0.3);
   }
 
+  /* Animating the mobile menu */
   #mobile-menu {
-    animation: showMobile 0.3s ease-in-out reverse;
-  }
-
-  .mobileMenuOpen {
-    display: block;
-    animation: showMobile 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
     transform-origin: top right;
   }
 
-  @keyframes showMobile {
-    from {
-      transform: scale(0);
-      opacity: 0;
-    }
-    to {
-      transform: scale(1);
-      opacity: 1;
-    }
+  #mobile-menu.mobileMenuOpen {
+    opacity: 1;
+    transform: scale(1);
+    visibility: visible;
   }
 }
