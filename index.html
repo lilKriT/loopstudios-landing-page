@@ -34,7 +34,9 @@
       class="flex justify-center w-full fixed shadow backdrop-blur-[2px] z-[1]"
       id="section-header"
     >
-      <nav class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4 overflow-visible">
+      <nav
+        class="flex justify-between items-center pt-6 w-full max-w-6xl mx-4 overflow-visible"
+      >
         <a href="#"
           ><img
             src="./images/logo.svg"
@@ -54,18 +56,31 @@
         </menu>
 
         <!-- Mobile Menu Button -->
-        <button class="block lg:hidden" id="open-mobile-menu"><img src="./images/icon-hamburger.svg" alt="Mobile Menu" class="p-4 drop-shadow-[0_0_3px_rgba(0,0,0,0.5)]"></button>
+        <button class="block lg:hidden" id="open-mobile-menu">
+          <img
+            src="./images/icon-hamburger.svg"
+            alt="Mobile Menu"
+            class="p-4 drop-shadow-[0_0_3px_rgba(0,0,0,0.5)]"
+          />
+        </button>
 
         <!-- Mobile menu -->
         <!-- Uses mobileMenuOpen class -->
-        <div class="bg-black fixed left-0 top-0 h-screen w-full py-8 px-4" id="mobile-menu">
+        <div
+          class="bg-black fixed left-0 top-0 h-screen w-full py-8 px-4"
+          id="mobile-menu"
+        >
           <!-- Top Row -->
           <div class="flex justify-between">
-            <a href="#"><img src="./images/logo.svg" alt="Go Home"></a>
-            <button id="close-mobile-menu" class="mr-4"><img src="./images/icon-close.svg" alt="Close Mobile Menu"></button>
+            <a href="#"><img src="./images/logo.svg" alt="Go Home" /></a>
+            <button id="close-mobile-menu" class="mr-4">
+              <img src="./images/icon-close.svg" alt="Close Mobile Menu" />
+            </button>
           </div>
           <!-- Menu Items -->
-          <menu class="text-white uppercase text-2xl h-full flex flex-col justify-center">
+          <menu
+            class="text-white uppercase text-2xl h-full flex flex-col justify-center"
+          >
             <li>
               <a href="#" class="py-2 block">About</a>
             </li>
@@ -97,7 +112,9 @@
       class="min-h-screen flex justify-center items-center"
       id="section-leader"
     >
-      <div class="w-full max-w-6xl mx-4 flex flex-col lg:flex-row justify-center items-center lg:items-end">
+      <div
+        class="max-w-6xl mx-4 flex flex-col lg:flex-row justify-center items-center lg:items-end"
+      >
         <!-- <img
           src="./images/desktop/image-interactive.jpg"
           alt="Gamer with VR goggles"
@@ -106,14 +123,19 @@
 
         <!-- Picture of a guy playing in VR -->
         <picture>
-          <source media="(min-width: 1024px)" srcset="./images/desktop/image-interactive.jpg" />
+          <source
+            media="(min-width: 1024px)"
+            srcset="./images/desktop/image-interactive.jpg"
+          />
           <img
             src="./images/mobile/image-interactive.jpg"
             alt="Our model, wearing our clothes."
           />
         </picture>
 
-        <div class="bg-white lg:w-3/5 lg:-ml-20 lg:pl-16 pt-16 text-center lg:text-left">
+        <div
+          class="bg-white lg:w-3/5 lg:-ml-20 lg:pl-16 pt-16 text-center lg:text-left"
+        >
           <h2 class="text-4xl uppercase font-josefin">
             The leader in interactive VR
           </h2>
@@ -129,102 +151,103 @@
 
     <!-- Creations Section -->
     <section
-      class="w-full min-h-screen flex flex-col justify-center items-center mb-40 bg-pink-500"
+      class="min-h-screen flex justify-center items-stretch mb-40 bg-pink-500"
       id="section-creations"
     >
-      <!-- Creations Header -->
-      <div
-        class="max-w-6xl py-6 mb-8 flex justify-between items-center bg-emerald-500"
-      >
-        <h2 class="text-4xl font-josefin uppercase">Our creations</h2>
-        <a href="#" class="font-josefin uppercase border border-black px-6 pt-3 pb-2 hover:text-white hover:bg-black duration-150"
-          >See all</a
-        >
-      </div>
+      <div class="bg-blue-200 w-full max-w-6xl mx-4">
+        <!-- Creations Header -->
+        <div class="py-6 mb-8 flex justify-between items-center bg-emerald-500">
+          <h2 class="text-4xl font-josefin uppercase">Our creations</h2>
+          <a
+            href="#"
+            class="font-josefin uppercase border border-black px-6 pt-3 pb-2 hover:text-white hover:bg-black duration-150"
+            >See all</a
+          >
+        </div>
 
-      <!-- Creations collection -->
-      <div class="w-full max-w-6xl" id="grid-creations">
-        <!-- Card One -->
-        <a href="#">
-          <div class="bg-deepEarth">
-            <h3>
-              Deep <br />
-              earth
-            </h3>
-          </div>
-        </a>
+        <!-- Creations collection -->
+        <div class="w-full max-w-6xl" id="grid-creations">
+          <!-- Card One -->
+          <a href="#">
+            <div class="bg-deepEarth">
+              <h3>
+                Deep <br />
+                earth
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Two -->
-        <a href="#">
-          <div class="bg-nightArcade">
-            <h3>
-              Night<br />
-              arcade
-            </h3>
-          </div>
-        </a>
+          <!-- Card Two -->
+          <a href="#">
+            <div class="bg-nightArcade">
+              <h3>
+                Night<br />
+                arcade
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Three -->
-        <a href="#">
-          <div class="bg-soccerTeam">
-            <h3>
-              Soccer<br />
-              team VR
-            </h3>
-          </div>
-        </a>
+          <!-- Card Three -->
+          <a href="#">
+            <div class="bg-soccerTeam">
+              <h3>
+                Soccer<br />
+                team VR
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Four -->
-        <a href="#">
-          <div class="bg-theGrid">
-            <h3>
-              The<br />
-              grid
-            </h3>
-          </div>
-        </a>
+          <!-- Card Four -->
+          <a href="#">
+            <div class="bg-theGrid">
+              <h3>
+                The<br />
+                grid
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Five -->
-        <a href="#">
-          <div class="bg-fromAbove">
+          <!-- Card Five -->
+          <a href="#">
+            <div class="bg-fromAbove">
               <h3>
                 From up<br />
                 above VR
               </h3>
-          </div>
-        </a>
+            </div>
+          </a>
 
-        <!-- Card Six -->
-        <a href="#">
-          <div class="bg-pocketBorealis">
-            <h3>
-              Pocket<br />
-              borealis
-            </h3>
-          </div>
-        </a>
+          <!-- Card Six -->
+          <a href="#">
+            <div class="bg-pocketBorealis">
+              <h3>
+                Pocket<br />
+                borealis
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Seven -->
-        <a href="#">
-          <div class="bg-curosity">
-            <h3>
-              The<br />
-              curiosity
-            </h3>
-          </div>
-        </a>
+          <!-- Card Seven -->
+          <a href="#">
+            <div class="bg-curosity">
+              <h3>
+                The<br />
+                curiosity
+              </h3>
+            </div>
+          </a>
 
-        <!-- Card Eight -->
-        <a href="#">
-          <div class="bg-fishEye">
-            <h3>
-              Make it<br />
-              fisheye
-            </h3>
-          </div>
-        </a>
-        <!-- Card Eight - Repeat for testing purposes -->
-        <!-- <a href="#" class="group">
+          <!-- Card Eight -->
+          <a href="#">
+            <div class="bg-fishEye">
+              <h3>
+                Make it<br />
+                fisheye
+              </h3>
+            </div>
+          </a>
+          <!-- Card Eight - Repeat for testing purposes -->
+          <!-- <a href="#" class="group">
           <div class="bg-fishEye group-hover:scale-105">
             <h3>
               Make it<br />
@@ -232,24 +255,58 @@
             </h3>
           </div>
         </a> -->
+        </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-black flex justify-center" id="section-footer">
       <div class="w-full max-w-6xl py-10">
-
         <!-- Top Row -->
         <div class="flex justify-between items-center">
-          <a href="#"><img src="./images/logo.svg" alt="logo" class="hover:scale-105 duration-150"/></a>
+          <a href="#"
+            ><img
+              src="./images/logo.svg"
+              alt="logo"
+              class="hover:scale-105 duration-150"
+          /></a>
 
           <nav>
             <menu class="flex justify-end gap-3">
-              <li><a href="#"><img src="./images/icon-facebook.svg" alt="facebook" class="h-5 hover:scale-110 duration-75"></a></li>
-              <li><a href="#"><img src="./images/icon-pinterest.svg" alt="pinterest" class="h-5 hover:scale-110 duration-75"></a></li>
-              <li><a href="#"><img src="./images/icon-twitter.svg" alt="twitter" class="h-5 hover:scale-110 duration-75"></a></li>
-              <li><a href="#"><img src="./images/icon-instagram.svg" alt="instagram" class="h-5 hover:scale-110 duration-75"></a></li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./images/icon-facebook.svg"
+                    alt="facebook"
+                    class="h-5 hover:scale-110 duration-75"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./images/icon-pinterest.svg"
+                    alt="pinterest"
+                    class="h-5 hover:scale-110 duration-75"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./images/icon-twitter.svg"
+                    alt="twitter"
+                    class="h-5 hover:scale-110 duration-75"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="./images/icon-instagram.svg"
+                    alt="instagram"
+                    class="h-5 hover:scale-110 duration-75"
+                /></a>
+              </li>
             </menu>
-          </nav>          
+          </nav>
         </div>
 
         <!-- Bottom Row -->
@@ -263,11 +320,17 @@
               <li><a href="#" class="navItem">Support</a></li>
             </menu>
           </nav>
-          
-          <p class="text-darkGray mt-4">© 2021 <a href="#" class="inline-block hover:-translate-y-1 hover:text-white duration-150">Loopstudios</a>. All rights reserved.</p>
+
+          <p class="text-darkGray mt-4">
+            © 2021
+            <a
+              href="#"
+              class="inline-block hover:-translate-y-1 hover:text-white duration-150"
+              >Loopstudios</a
+            >. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-    
   </body>
 </html>
