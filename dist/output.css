@@ -679,6 +679,16 @@ footer > div > div:last-child > nav > menu > li:first-child {
   margin-right: auto;
 }
 
+.mx-24 {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.mx-40 {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
 .-ml-2 {
   margin-left: -0.5rem;
 }
@@ -701,6 +711,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .block {
@@ -743,6 +757,16 @@ footer > div > div:last-child > nav > menu > li:first-child {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
+.w-max {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -753,10 +777,6 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
 .flex-col {
   flex-direction: column;
-}
-
-.items-end {
-  align-items: flex-end;
 }
 
 .items-center {
@@ -806,8 +826,38 @@ footer > div > div:last-child > nav > menu > li:first-child {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
 }
 
-.bg-girlDriving {
-  background-image: url(../images/desktop/image-hero.jpg);
+.bg-pink-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 72 153 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 185 129 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(167 243 208 / var(--tw-bg-opacity));
+}
+
+.bg-blue-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+}
+
+.bg-pink-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 245 / var(--tw-bg-opacity));
+}
+
+.bg-girlDrivingM {
+  background-image: url(../images/mobile/image-hero.jpg);
 }
 
 .bg-deepEarth {
@@ -840,10 +890,6 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
 .bg-fishEye {
   background-image: url(../images/desktop/image-fisheye.jpg);
-}
-
-.bg-girlDrivingM {
-  background-image: url(../images/mobile/image-hero.jpg);
 }
 
 .bg-cover {
@@ -1060,14 +1106,6 @@ footer > div > div:last-child > nav > menu > li:first-child {
 
   .lg\:items-end {
     align-items: flex-end;
-  }
-
-  .lg\:items-center {
-    align-items: center;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
   }
 
   .lg\:bg-girlDriving {
