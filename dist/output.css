@@ -729,6 +729,26 @@ footer > div > div:last-child > nav > menu > li:first-child {
   margin-bottom: 2rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mb-44 {
+  margin-bottom: 11rem;
+}
+
 .block {
   display: block;
 }
@@ -1066,6 +1086,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
 @media (min-width: 1024px) {
   .lg\:-ml-20 {
     margin-left: -5rem;
+  }
+
+  .lg\:mb-40 {
+    margin-bottom: 10rem;
   }
 
   .lg\:block {
