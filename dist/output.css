@@ -580,12 +580,6 @@ body {
   margin-right: -1rem;
 }
 
-/* Another fix, for the footer menu */
-
-footer > div > div:first-child > nav > menu > li:first-child {
-  margin-left: -1rem;
-}
-
 /* Navigation underlines */
 
 .navItem::after {
@@ -684,6 +678,14 @@ footer > div > div:first-child > nav > menu > li:first-child {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  /* Another fix, for the footer menu */
+
+  footer > div > div:first-child > nav > menu > li:first-child {
+    margin-left: -1rem;
+  }
+}
+
 .fixed {
   position: fixed;
 }
@@ -733,8 +735,8 @@ footer > div > div:first-child > nav > menu > li:first-child {
   margin-top: 2rem;
 }
 
-.-mb-4 {
-  margin-bottom: -1rem;
+.mt-10 {
+  margin-top: 2.5rem;
 }
 
 .block {
@@ -789,10 +791,6 @@ footer > div > div:first-child > nav > menu > li:first-child {
   flex-direction: column;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
@@ -815,6 +813,10 @@ footer > div > div:first-child > nav > menu > li:first-child {
 
 .gap-3 {
   gap: 0.75rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-visible {
@@ -842,21 +844,6 @@ footer > div > div:first-child > nav > menu > li:first-child {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
-}
-
-.bg-emerald-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
-}
-
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .bg-girlDrivingM {
@@ -1097,6 +1084,10 @@ footer > div > div:first-child > nav > menu > li:first-child {
 
   .lg\:mb-40 {
     margin-bottom: 10rem;
+  }
+
+  .lg\:-mb-4 {
+    margin-bottom: -1rem;
   }
 
   .lg\:block {

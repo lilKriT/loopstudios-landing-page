@@ -19,11 +19,6 @@
     @apply -mr-4;
   }
 
-  /* Another fix, for the footer menu */
-  footer > div > div:first-child > nav > menu > li:first-child {
-    @apply -ml-4;
-  }
-
   /* Navigation underlines */
   .navItem::after {
     content: "";
@@ -72,6 +67,13 @@
     #grid-creations > a {
       @apply w-full h-40;
       flex-basis: auto;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Another fix, for the footer menu */
+    footer > div > div:first-child > nav > menu > li:first-child {
+      @apply -ml-4;
     }
   }
 }
