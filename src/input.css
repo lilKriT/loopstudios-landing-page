@@ -69,7 +69,8 @@
     }
 
     #grid-creations > a {
-      @apply aspect-[2.725];
+      @apply w-full h-40;
+      flex-basis: auto;
     }
   }
 }
