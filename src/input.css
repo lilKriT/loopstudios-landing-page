@@ -20,7 +20,7 @@
   }
 
   /* Another fix, for the footer menu */
-  footer > div > div:last-child > nav > menu > li:first-child {
+  footer > div > div:first-child > nav > menu > li:first-child {
     @apply -ml-4;
   }
 

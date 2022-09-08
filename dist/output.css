@@ -582,7 +582,7 @@ body {
 
 /* Another fix, for the footer menu */
 
-footer > div > div:last-child > nav > menu > li:first-child {
+footer > div > div:first-child > nav > menu > li:first-child {
   margin-left: -1rem;
 }
 
@@ -721,8 +721,8 @@ footer > div > div:last-child > nav > menu > li:first-child {
   margin-top: 1rem;
 }
 
-.mb-40 {
-  margin-bottom: 10rem;
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .mb-8 {
@@ -733,20 +733,8 @@ footer > div > div:last-child > nav > menu > li:first-child {
   margin-top: 2rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.mb-24 {
-  margin-bottom: 6rem;
-}
-
-.mb-44 {
-  margin-bottom: 11rem;
+.-mb-4 {
+  margin-bottom: -1rem;
 }
 
 .block {
@@ -801,6 +789,10 @@ footer > div > div:last-child > nav > menu > li:first-child {
   flex-direction: column;
 }
 
+.items-start {
+  align-items: flex-start;
+}
+
 .items-center {
   align-items: center;
 }
@@ -850,6 +842,21 @@ footer > div > div:last-child > nav > menu > li:first-child {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity));
+}
+
+.bg-emerald-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 211 153 / var(--tw-bg-opacity));
+}
+
+.bg-red-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
 .bg-girlDrivingM {
