@@ -61,6 +61,17 @@
   #grid-creations > a > div > h3 {
     @apply text-white text-4xl uppercase font-josefin;
   }
+
+  /* Grid creations on mobile */
+  @media screen and (max-width: 1024px) {
+    #grid-creations {
+      flex-direction: column;
+    }
+
+    #grid-creations > a {
+      @apply aspect-[2.725];
+    }
+  }
 }
 
 @layer utilities {
