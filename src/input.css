@@ -55,11 +55,11 @@
   }
 
   #grid-creations > a > div {
-    @apply bg-cover w-full h-full duration-150 p-8 flex items-end hover:shadowTint;
+    @apply bg-cover w-full h-full duration-150 p-4 lg:p-8 flex items-end hover:shadowTint;
   }
 
   #grid-creations > a > div > h3 {
-    @apply text-white text-4xl uppercase font-josefin;
+    @apply text-white text-3xl lg:text-4xl uppercase font-josefin;
   }
 
   /* Grid creations on mobile */
